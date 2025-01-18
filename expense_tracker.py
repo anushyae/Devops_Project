@@ -18,10 +18,12 @@ def main():
 def getting_user_inputs():
     expense_name = input("Please enter the Expense name: ")
     expense_amount = float(input("Please enter the Expense amount: "))
+    # Getting the categories of expenses as a list
     expense_categories = ["🚗 Gas", "😎 Spending", "🛒 Groceries", "🍟 Food"]
 
     while True:
         print("Select a category: ")
+        # Printing category one by one
         for i, category_name in enumerate(expense_categories):
             print(f"{i+1}. {category_name}")
         
