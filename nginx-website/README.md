@@ -1,25 +1,30 @@
-Dockerized Nginx Static Website
+# **Dockerized Nginx Static Website**
 
-Overview:
+## Overview:
+
 This is a mini project where a static website served using Nginx inside a Docker container. The project demonstrates how to containerize a simple HTML site and run it locally.
 
-Pre-requesites:
-    # Docker has to be installed in the local machine
+## Pre-requesites:
 
-Docker commands used:
+Docker has to be installed in the local machine
+
+## Docker commands used:
+
 1. docker build -t image-name .
 2. docker run -d -p 8080:80 --name container-name image-name
 3. docker logs container-id
 4. docker ps
 
-Git commands used:
+## Git commands used:
+
 1. git init
 2. git add folder-name
 3. git status
 4. git commit -m "commit message"
 5. git push origin main
 
-How to Run locally:
+## How to Run locally:
+
 1. Build the Docker image
 ``` 
 docker build -t image-name .
@@ -34,5 +39,5 @@ http://localhost:8080
 
 ![alt text](image.png)
 
-Author
-Anushya Elangovan | LinkedIn Profile
+## Author
+Anushya Elangovan | [LinkedIn Profile](https://www.linkedin.com/in/anushya-elangovan)
